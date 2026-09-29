@@ -1,27 +1,111 @@
-body{
-    background-color: rgb(250, 248, 252);
-    color: rgb(8, 8, 8);
+body {
+    background-color: #f4f0e8;
+    color: #222222;
     font-family: Arial, sans-serif;
+    margin: 0;
 }
 
-header{
-    background-color: black;
-    color: bisque;
+header {
+    background-color: #31572c;
+    color: white;
     text-align: center;
     padding: 30px;
 }
 
-h1{
+h1 {
     font-size: 36px;
 }
 
-h2{
-    color: rgb(207, 12, 12);
+h2 {
+    color: #31572c;
 }
 
-p{
+p {
     font-size: 18px;
     line-height: 1.6;
 }
 
+nav {
+    margin-top: 20px;
+}
 
+nav a {
+    color: #31572c;
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #dcebd5;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+img {
+    width: 100%;
+    max-width: 600px;
+    display: block;
+    margin: auto;
+    border-radius: 12px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 14px;
+    color: #555555;
+    margin-top: 8px;
+}
+
+.card {
+    background-color: #e3eadc;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 6px solid #31572c;
+    border-radius: 10px;
+}
+
+.card h3 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #222222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+button {
+    background-color: #31572c;
+color: #ffffff;
+border:none ;
+padding: 10px 15px;
+border-radius: 8px;
+cursor: pointer;
+ }
+
+ button:hover{
+background-color: #555555;
+
+ }
+
+.curtir{
+display:block;
+width: fit-content;
+
+}

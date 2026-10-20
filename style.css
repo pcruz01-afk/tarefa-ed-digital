@@ -1,14 +1,14 @@
-:root{
+:root {
     --cor-fundo: #f4f1ea;
-    --cor-texto:#222222 ;
-    --cor-principal:#31572c; ;
-    --cor-segundaria:#3db12e; ;
-    --cor-hover:#1c5e13; ;
-    --cor-superfice:#ffffff ;
-    --cor-card:#a0e297; ;
-    --cor-legenda:#555555 ;
-    --cor-clara:#c3f5bc; ;
-    --cor-rodape:#222222 ;
+    --cor-texto: #222222;
+    --cor-principal: #31572c;
+    --cor-segundaria: #3db12e;
+    --cor-hover: #1c5e13;
+    --cor-superfice: #ffffff;
+    --cor-card: #a0e297;
+    --cor-legenda: #555555;
+    --cor-clara: #c3f5bc;
+    --cor-rodape: #222222;
 }
 
 body {
@@ -62,7 +62,7 @@ main {
 }
 
 section {
-    background-color:var(--cor-superfice);
+    background-color: var(--cor-superfice);
     margin: 20px 0;
     padding: 20px;
     border-radius: 12px;
@@ -105,20 +105,20 @@ footer {
 
 button {
     background-color: var(--cor-principal);
-color: var(--cor-clara);
-border:none ;
-padding: 10px 15px;
-border-radius: 8px;
-cursor: pointer;
- }
+    color: var(--cor-clara);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
 
- button:hover{
-background-color: var(--cor-hover);
+button:hover {
+    background-color: var(--cor-hover);
 
- }
+}
 
-.curtir{
-display:block;
-width: fit-content;
+.curtir {
+    display: block;
+    width: fit-content;
 
 }
